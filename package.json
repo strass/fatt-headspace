@@ -1,0 +1,22 @@
+{
+  "name": "fatt-headspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsdx build --entry ./src/index.ts --target node --format cjs,esm"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.134",
+    "@types/node": "^12.0.8",
+    "bufferutil": "^4.0.1",
+    "discord.js": "^11.5.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "tsdx": "^0.7.1",
+    "typescript": "^3.5.2"
+  }
+}
