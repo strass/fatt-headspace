@@ -1,2 +1,4 @@
 node_modules
-./env.json
+env.json
+.rts2_cache_cjs
+.rts2_cache_esm
