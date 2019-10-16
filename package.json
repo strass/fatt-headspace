@@ -5,14 +5,16 @@
   "license": "MIT",
   "scripts": {
     "#build": "tsdx build --entry ./src/index.ts --target node --format cjs,esm",
-    "build": "webpack"
+    "build": "webpack --mode development"
   },
   "dependencies": {
     "@types/lodash": "^4.14.134",
     "@types/node": "^12.0.8",
+    "@types/node-fetch": "^2.3.7",
     "bufferutil": "^4.0.1",
     "discord.js": "^11.5.1",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "json-loader": "^0.5.7",

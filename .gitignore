@@ -2,3 +2,4 @@ node_modules
 env.json
 .rts2_cache_cjs
 .rts2_cache_esm
+yarn-error.log
