@@ -84,8 +84,8 @@ Text HOME to 741741`)) as Message;
   client.login(process.env.DISCORD_TOKEN);
 
   while (!done) {
-    seconds++;
-    await sleep(1000);
+    seconds += 0.25;
+    await sleep(250);
   }
 
   console.log('done thinking');
