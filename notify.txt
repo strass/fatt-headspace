@@ -1,1 +1,1 @@
-Deleting messages in 15 minutes
+Messages in this channel will be cleared in 15 minutes
